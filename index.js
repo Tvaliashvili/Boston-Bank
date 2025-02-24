@@ -6,7 +6,6 @@ function logMessage(message, delay = 2000) {
         document.getElementById("log_txt")?.appendChild(para);
         document.querySelector(".button").style.backgroundColor = "rgb(128, 128, 128)"
         document.querySelector(".button").style.borderColor = "grey"
-        document.querySelector(".button:hover").removeclass("hover");
         resolve();
       }, delay);
     });
